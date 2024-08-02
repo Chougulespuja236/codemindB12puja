@@ -3,6 +3,7 @@ package testpackage;
 public class ArithmaticOperator {
 
 	public static void main(String[] args) {
+		//Arithmetic operator
 		
 		float a =35, b=10;
 		System.out.println(a+b);
