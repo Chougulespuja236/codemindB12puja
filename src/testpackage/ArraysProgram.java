@@ -47,8 +47,8 @@ public class ArraysProgram {
 System.out.println("------------------------------------------------------------------------------------------------------------------------");
 			System.out.println("print multi dimensional array value using for loop");
 					
-		   for(int j=0; j<b.length; j++) {
-			   for(int k=0; k< b[j].length; k++) {
+		   for(int j=0; j<3; j++) {
+			   for(int k=0; k<3; k++) {
 				   System.out.print(b[j][k]+"\t");
 			   }
 		    System.out.println();

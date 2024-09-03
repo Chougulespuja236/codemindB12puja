@@ -6,7 +6,7 @@ public class ArrayProgram1 {
 		int a[] = { 7, 15, 2, 86, 14, 985, 200 };
 		// print numbers in ascending orders
 		for (int i = 0; i < a.length; i++) {
-			for (int j = i + 1; j < a.length; j++) {
+			for (int j = i+1; j < a.length; j++) {
 				if (a[i] > a[j]) {
 					int temp;
 					temp = a[i];
